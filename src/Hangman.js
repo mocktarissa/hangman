@@ -69,7 +69,7 @@ class Hangman extends Component {
         </div>
         :
         <div>
-        <img src={this.props.images[this.state.nWrong]} alt='not an important image'/>
+        <img src={this.props.images[this.state.nWrong]} alt='not an important thing'/>
         <h1>
         {this.state.nWrong}
         </h1>
